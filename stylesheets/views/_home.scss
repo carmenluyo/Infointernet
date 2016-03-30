@@ -1297,14 +1297,14 @@ section.eighty-four {
 
 
 /*PHONE*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:$screen-phone) {
   .footer .pagination {
     font-size: 13px;
   }
   footer.footer {
-    position: relative !important;
+    position: fixed !important;
     padding: 5%;
-    height: 0%;
+    height: 12%;
     text-align: center;
   }
   .content-8 {
@@ -1499,20 +1499,5 @@ section.eighty-four {
       width: 100%;
       position: relative;
       left: 0px !important;
-    }
-  }
-
-  @media screen and (max-height: 600px) {
-    body {
-      height: auto;
-    }
-    section {
-      height: auto;
-    }
-    .slide {
-      height: auto;
-    }
-    footer {
-      position: relative !important;
     }
   }

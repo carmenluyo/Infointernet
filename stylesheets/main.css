@@ -5968,7 +5968,8 @@ p {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  color: white; }
+  color: white;
+  overflow: hidden; }
 
 /*Background*/
 .bluegif-4 {
@@ -7097,14 +7098,14 @@ section.eighty-four .fz {
   padding-top: 15%; }
 
 /*PHONE*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .footer .pagination {
     font-size: 13px; }
 
   footer.footer {
-    position: relative !important;
+    position: fixed !important;
     padding: 5%;
-    height: 0%;
+    height: 12%;
     text-align: center; }
 
   .content-8 {
@@ -7277,18 +7278,6 @@ section.eighty-four .fz {
     width: 100%;
     position: relative;
     left: 0px !important; } }
-@media screen and (max-height: 600px) {
-  body {
-    height: auto; }
-
-  section {
-    height: auto; }
-
-  .slide {
-    height: auto; }
-
-  footer {
-    position: relative !important; } }
 body {
   background-color: white;
   font-size: 15px; }
